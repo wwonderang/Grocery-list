@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #64aef8;
+  font-family: 'Dancing script';
+}
+
+#container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.header {
+  min-height: 800px;
+  width: 615px;
+  margin: auto;
+  background-color:#ffffff;
+  box-shadow: 10px 10px 24px 0 #00000080;
+  
+}
+
+.grocery {
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.header h1 {
+  font-size: 63px;
+  margin-top: 5px;
+}
+
+#eraser {
+  color: #64aef8;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.header input {
+  font-family: inherit;
+  font-size: 30px;
+  outline: none;
+  border: 0;
+  border-bottom: 2px solid #a7a7a7;
+  width: 70%;
+}
+
+#allItems {
+  font-size: 30px;
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#allItems h2 {
+  cursor: pointer;
+}
+
